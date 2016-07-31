@@ -7,38 +7,24 @@
 
  main() {
 
-
    char  *p;
+
    p = (char*) malloc(100);
 
    strcpy(p, "Hello World");
 
-   cout << *p;
+   strcat ( p, "\0");
 
-   cout << *(p+1);
-
-   cout << *(p+2);
-
-   cout << *(p+3);
-
-   cout << *(p+4);
-
-   cout << *(p+5); // here it will print Hello
+   cout << strlen(p) << endl;
 
    while (p != NULL) {
 
+   	    cout << *p;
 
+        p ++; // will show segmentation fault
 
-   	cout << *p;
-
-
-
-    p ++; // will show segmentation fault
-
-    if ( p == NULL)
-    	break;
-
-
+        if ( p == NULL)
+    	    break;
    }
 
  }
