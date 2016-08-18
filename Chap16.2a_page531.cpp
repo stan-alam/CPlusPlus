@@ -1,5 +1,7 @@
 #include <iostream>
 #include <math.h>
+using namespace std;
+
 class point {
 
 public: int xstartpoint, ystartpoint;

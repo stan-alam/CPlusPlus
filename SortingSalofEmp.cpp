@@ -23,7 +23,7 @@ typedef struct EMP{
 class   Empl{
 
 
-     public:
+    public:
 
     double         sum, avg;
 
@@ -86,9 +86,9 @@ main() {
 
     /*   Declaring  an Array of struct and initializing  it   */
 
-    EMP       emp10[] = { {"John", 1200.00},
-                         {"Stuart", 1600.00},
-                         {"Mark", 900.00},
+    EMP  emp10[] = { {"John", 1200.00},
+        {"Stuart", 1600.00},
+        {"Mark", 900.00},
                          {"Nancy", 1550.00},
                          {"James", 1900.00},
                          {"Jenny", 1650.00},
@@ -101,7 +101,7 @@ main() {
 
 
 
-      Empl              empl;   // Declaring  Object from class
+     Empl        empl;   // Declaring  Object from class
 
      empl.printArr(emp10,   totalEmps);  //printing before sorting
 
