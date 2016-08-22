@@ -1,38 +1,31 @@
 #include <iostream>
-
-
-
-using  namespace  std;
-
-
-
+using namespace std;
 
 main() {
 
-    int empid[100], i = 0;
-    int hoursworked[100], overtimehours[100];
-    float hourlyrate[100], regularpay[100];
-    float overtimepay[100], grosspay[100];
-    while ( cin >> empid[i] >> hoursworked[i] >> hourlyrate[i]) {
-    	if(hoursworked[i] > 40 ){
-    		overtimehours[i] = hoursworked[i] - 40;
-    		overtimepay[i] = overtimehours[i] * hourlyrate[i] * 1.5;
-    		regularpay[i] = 40 * hourlyrate[i];
+	int empId[ 100 ], i = 0;
+	int hoursWorked[ 100 ], overTimeHours [ 100 ];
+	float hourlyRate[ 100 ], regularPay[ 100 ];
+	float overTimePay[100],  grossPay[ 100 ];
+
+	while( cin >> empId[i] >> hoursWorked[i] >> hourlyRate[i] {
+		if( hoursWorked[i] > 40 ) {
+			overTimeHours[i] = overTimeHours[i] - 40;
+			overTimePay[i] = 40 * hourlyRate[i] * 1.5;
+			regularPay[i] = 40 * hourlyRate[i];
+		} else {
+			overTimeHours[i] = 0;
+			overTimePay[i] = 0;
+			regularPay[i] = hoursWorked[i] * hourlyRate[i];
+
+		} //else
+		grossPay[i] = regularPay[i] + overTimePay[i];
+		cout << "Employee ID is " << empId[i] << end;
+		cout << "Over time pay is " << overTimePay[i] << endl;
+		cout<< "Gross pay is " << grossPay[i] << endl;
+		i = i + 1;
+	}
+return 0;
 
 
-    	} //end IF statement
-
-        else{
-        	overtimehours[i] = 0;
-        	overtimepay[i] = 0;
-        	regularpay[i] = hoursworked[i] * hourlyrate[i];
-        }//ELSE
-
-    grosspay[i] = regularpay[i] + overtimepay[i];
-    cout << "EMPLOYEE ID  IS "<< empid[i] << endl;
-    cout << "OVERTIME PAY IS "<< overtimepay[i] << endl;
-    cout << "GROSS PAY    IS" << grosspay[i] << endl;
-     i = i + 1;
-  }  //END of WHILE statement
-  return 0;
- } // end of MAIN
+}
