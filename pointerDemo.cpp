@@ -19,12 +19,13 @@
 
    while (p != NULL) {
 
-   	    cout << *p;
+        cout << *p;
 
         p ++; // will show segmentation fault
 
         if ( p == NULL)
-    	    break;
+          break;
    }
 
  }
+
