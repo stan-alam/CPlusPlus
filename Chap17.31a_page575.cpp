@@ -8,7 +8,8 @@ int main() {
 		cout <<"\nPlease Enter your password (6 char): " <<endl;
 		for(int i = 0; < 6; i ++) {
 			str[i] = getch();
-			cout << '*';cout.flush();
+			cout << '*';
+			cout.flush();
 		}
 		str[i] = '\0';
 		if(strcmp(str, "secret") == 0) {
