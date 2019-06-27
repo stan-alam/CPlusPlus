@@ -5,9 +5,9 @@
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/CPlusPlus/blob/develop/lrningPath/pointers/images/01/cppPntrs%20-%201.pngg" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/CPlusPlus/blob/develop/lrningPath/pointers/images/01/cppPntrs%20-%201.png" width="80%" height="80%">
 </a>
 
 <a>
-  <img src="https://github.com/stan-alam/CPlusPlus/blob/develop/lrningPath/pointers/images/01/cppPntrs%20-%202.pngg" width="80%" height="80%">
+  <img src="https://github.com/stan-alam/CPlusPlus/blob/develop/lrningPath/pointers/images/01/cppPntrs%20-%202.png" width="80%" height="80%">
 </a>
