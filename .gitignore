@@ -1,3 +1,10 @@
+!*/
+*.o
+*/*.o
 *.out
 */*.out
-
+/qtprojs/build*
+/qtprojs*/*.o
+/qtprojs/build-stanQt5-newStan-Debug/*.o
+!*.*
+/qtprojs/!*.*
